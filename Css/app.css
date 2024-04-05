@@ -1,0 +1,135 @@
+:root {
+  --primary-color: #fa927d;
+  --secondary-color: #fed8d8da;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --primary-font: "DM Serif Display", serif;
+  --secondary-font: "Gayathri", sans-serif;
+}
+
+body {
+  background: linear-gradient(to right, #343532, #0d0d0d);
+  justify-content: center;
+  align-items: center;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+h1 {
+  font-size: 96px;
+  font-family: var(--secondary-font);
+}
+
+h2 {
+  font-size: 48px;
+  font-family: var(--secondary-font);
+}
+
+h3 {
+  font-size: 2rem;
+  opacity: 0.7;
+  font-family: var(--secondary-font);
+}
+
+p {
+  font-size: 1.2rem;
+  font-family: var(--secondary-font);
+  line-height: 1.5;
+  text-align: center;
+}
+.highlight-name {
+  color: var(--primary-color);
+}
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.navigation-links a {
+  margin: 20px;
+}
+
+.primary-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+
+.secondary-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.homepage-link {
+  color: var(--primary-color);
+  text-align: center;
+  display: block;
+}
+
+.about-paragraphs {
+  margin: 30px 0;
+}
+
+.about-paragraphs p {
+  margin: 10px;
+}
+
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
+.text-center {
+  color: antiquewhite;
+}
+.card-body {
+  background: #d4bd99ac;
+}
+
+.card-title {
+  font-size: 1.7rem;
+  font-family: var(--primary-font);
+  text-align: center;
+  color: #ffffff;
+}
+.launch-links {
+  display: flex;
+  justify-content: center;
+}
+
+.centered-links {
+  text-decoration: none;
+  color: #fff;
+}
+
+.launch-links {
+  padding: 10px 20px;
+  font-size: 1.3rem;
+  background: var(--primary-color);
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.launch-links:hover {
+  color: black;
+  background-color: #fcfdfd;
+}
